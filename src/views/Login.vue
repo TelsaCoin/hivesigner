@@ -14,7 +14,7 @@
       "
     >
       <span class="logo iconfont icon-hivesigner" />
-      <h4 class="m-0">hivesigner</h4>
+      <h4 class="m-0">DTOK</h4>
     </router-link>
     <div
       v-if="
@@ -68,7 +68,7 @@
           </option>
         </select>
         <label for="password" v-if="!decrypted">
-          Hivesigner password
+           Password
           <span
             class="tooltipped tooltipped-n tooltipped-multiline"
             :aria-label="TOOLTIP_LOGIN_ENCRYPTION_KEY"
